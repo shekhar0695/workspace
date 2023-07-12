@@ -29,7 +29,7 @@ spec:
   selector:
     app: myapp
   ports:
-  - name: http
-    port: 30002
-    targetPort: 80
-    nodeport: 30080
+    - name: http
+      port: 30002
+      targetPort: 80
+      nodePort: 30080
